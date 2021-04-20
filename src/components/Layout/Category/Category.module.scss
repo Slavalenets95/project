@@ -1,0 +1,17 @@
+.category {
+  height: auto;
+  margin-bottom: 45px;
+
+  .category__title {
+    font-size: 24px;
+    color: #000;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .category__item {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+  }
+}

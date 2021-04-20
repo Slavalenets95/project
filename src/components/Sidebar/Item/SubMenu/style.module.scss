@@ -1,0 +1,21 @@
+.submenu {
+  margin: 0;
+  padding: 24px;
+  list-style: none;
+
+  &__item {
+    font-size: 14px;
+
+    &:not(:last-of-type) {
+      margin-bottom: 8px;
+    }
+  }
+
+  &__link {
+    color: #4e4e4e;
+
+    &:hover {
+      color: #fc5808;
+    }
+  }
+}

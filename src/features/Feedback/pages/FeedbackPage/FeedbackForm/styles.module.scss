@@ -1,0 +1,33 @@
+.feedbackForm {
+    background-color: #f8f9fa;
+    &__preview {
+        padding: 0 10px;
+    }
+    &__title {
+        font-size: 1.5rem;
+        color: rgb(85, 85, 85);
+    }
+    &__content {
+        max-width: 420px;
+        padding: 10px;
+    }
+    &__select {
+        margin-top: 5px;
+    }
+    &__textarea {
+        flex: 0 1 100%;
+        min-height: 70px;
+        margin-top: 5px;
+    }
+    &__label {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__button {
+        margin-top: 10px;
+    }
+    &__error {
+        font-size: 14px;
+        color: #ff4d4f;
+    }
+}

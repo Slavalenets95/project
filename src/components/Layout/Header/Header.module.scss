@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  box-shadow: 0 1px 24px 0 rgba(0, 0, 0, 0.1);
+  top: 0;
+  z-index: 100;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  align-items: center;
+  height: 75px;
+  width: 100%;
+  margin-bottom: 20px;
+
+  .header__logo {
+    font-weight: 600;
+    font-size: 25px;
+    color: #1890ff;
+  }
+
+  .header__search {
+    width: 400px;
+  }
+
+  .header__btn_registration {
+    margin-right: 10px;
+  }
+
+  .header__btn_login {
+    margin-right: 10px;
+  }
+}

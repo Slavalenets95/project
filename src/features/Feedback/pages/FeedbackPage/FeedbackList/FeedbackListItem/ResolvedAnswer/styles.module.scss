@@ -1,0 +1,38 @@
+.answer {
+    color: #155724;
+    background-color: #fff;
+    &__header {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+    }
+    &__button {
+        background-color: #28a745;
+        border-color: #28a745;
+        color: #fff;
+        font-weight: 500;
+        outline: none;
+        border: 1px solid #28a745;
+        padding: 6px 12px;
+        cursor: pointer;
+        &:hover {
+            background-color: #218838;
+        } 
+    }
+    &__txt_sm {
+        margin: 0;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    &__date {
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+
+.unvisible {
+    display: none;
+}
+.visibleAnswer {
+    display: block;
+}
